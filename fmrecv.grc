@@ -108,7 +108,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>115200000</value>
+      <value>92400000</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -214,7 +214,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1e6</value>
+      <value>5e5</value>
     </param>
   </block>
   <block>
@@ -252,7 +252,7 @@
     </param>
     <param>
       <key>value</key>
-      <value>1</value>
+      <value>5</value>
     </param>
     <param>
       <key>_enabled</key>
@@ -296,7 +296,7 @@
     </param>
     <param>
       <key>stop</key>
-      <value>5</value>
+      <value>10</value>
     </param>
     <param>
       <key>rangeType</key>
@@ -853,7 +853,7 @@
     </param>
     <param>
       <key>bw</key>
-      <value>samp_rate</value>
+      <value>quadrature</value>
     </param>
     <param>
       <key>alias</key>
@@ -861,7 +861,7 @@
     </param>
     <param>
       <key>fc</key>
-      <value>100e3</value>
+      <value>0</value>
     </param>
     <param>
       <key>comment</key>
@@ -885,7 +885,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(664, 115)</value>
+      <value>(752, 395)</value>
     </param>
     <param>
       <key>gui_hint</key>
@@ -1077,7 +1077,7 @@
     </param>
     <param>
       <key>name</key>
-      <value>Low pass</value>
+      <value>Received</value>
     </param>
     <param>
       <key>nconnections</key>
@@ -1109,7 +1109,7 @@
     </param>
     <param>
       <key>type</key>
-      <value>complex</value>
+      <value>float</value>
     </param>
     <param>
       <key>update_time</key>
@@ -2491,7 +2491,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(24, 235)</value>
+      <value>(32, 227)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -2596,6 +2596,12 @@
   </block>
   <connection>
     <source_block_id>analog_wfm_rcv_0</source_block_id>
+    <sink_block_id>qtgui_freq_sink_x_0_0</sink_block_id>
+    <source_key>0</source_key>
+    <sink_key>0</sink_key>
+  </connection>
+  <connection>
+    <source_block_id>analog_wfm_rcv_0</source_block_id>
     <sink_block_id>rational_resampler_xxx_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
@@ -2609,12 +2615,6 @@
   <connection>
     <source_block_id>low_pass_filter_0</source_block_id>
     <sink_block_id>analog_wfm_rcv_0</sink_block_id>
-    <source_key>0</source_key>
-    <sink_key>0</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>low_pass_filter_0</source_block_id>
-    <sink_block_id>qtgui_freq_sink_x_0_0</sink_block_id>
     <source_key>0</source_key>
     <sink_key>0</sink_key>
   </connection>
