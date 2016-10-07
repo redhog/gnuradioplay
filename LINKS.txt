@@ -1,1 +1,3 @@
 IQ sampling: http://whiteboard.ping.se/SDR/IQ
+FM-receiver YT video: https://www.youtube.com/watch?v=KWeY2yqwVA0
+FM-receiver HOWTO: http://www.instructables.com/id/RTL-SDR-FM-radio-receiver-with-GNU-Radio-Companion/step7/Low-pass-filter/
