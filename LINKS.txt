@@ -2,3 +2,6 @@ IQ sampling: http://whiteboard.ping.se/SDR/IQ
 FM-receiver YT video: https://www.youtube.com/watch?v=KWeY2yqwVA0
 FM-receiver HOWTO: http://www.instructables.com/id/RTL-SDR-FM-radio-receiver-with-GNU-Radio-Companion/step7/Low-pass-filter/
 Shannon's paper: http://worrydream.com/refs/Shannon%20-%20A%20Mathematical%20Theory%20of%20Communication.pdf
+Tom Ronbeau's intro to GNURadio: 
+  - https://www.youtube.com/watch?v=_hGNT1w-jig
+  - https://www.youtube.com/watch?v=cg3TA3EDx78
