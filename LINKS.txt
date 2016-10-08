@@ -5,3 +5,4 @@ Shannon's paper: http://worrydream.com/refs/Shannon%20-%20A%20Mathematical%20The
 Tom Ronbeau's intro to GNURadio: 
   - https://www.youtube.com/watch?v=_hGNT1w-jig
   - https://www.youtube.com/watch?v=cg3TA3EDx78
+  - https://www.youtube.com/watch?v=nemfS9QAYHc
